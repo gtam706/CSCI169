@@ -1,0 +1,6 @@
+Problem 1:
+    This code basically shows how scope works in python. For the function local assignment a new spam object is getting created in the function. For nonlocal spam, the spam variable is also changed. For the third function ran it delcared a global variable that exists outside the function and inside. For print the code, the code printed the spam within the local scope.
+Problem 2:
+    The code creates two global variables in x and c. So the first print in spam(), prints global x and the second print in spam() prints the local c. The third printed numbers is the local variable of innerinner and the last print is just the returned value from innerinner()
+Problem 3:
+    The first printed line prints local variable x for foo. The second printed line prints changed object ys. The third line prints the local x in bar function. The 4 line prints the ys for the global variable. The error showed up as these is no zs in the scope of the print function
